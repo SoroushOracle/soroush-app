@@ -15,13 +15,12 @@
       xfbml            : true,
       version          : 'v1.0'
     });
-  };
- </script>
- <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
-  <script>
    FB.getLoginStatus(function(response) {
        console.log("response", response)
        statusChangeCallback(response);
    });
-  </script>
+  };
+ </script>
+ <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
+  
 </html> 
