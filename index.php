@@ -18,4 +18,10 @@
   };
  </script>
  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
+  <script>
+   FB.getLoginStatus(function(response) {
+       console.log("response", response)
+       statusChangeCallback(response);
+   });
+  </script>
 </html> 
