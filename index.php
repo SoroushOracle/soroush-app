@@ -54,7 +54,7 @@
 
 <!-- The JS SDK Login Button -->
 
-<fb:login-button scope="public_profile,email,business_management" onlogin="checkLoginState();">
+<fb:login-button scope="public_profile,email,user_likes" onlogin="checkLoginState();">
 </fb:login-button>
 
 
