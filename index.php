@@ -1,4 +1,4 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
 <title>Facebook Login JavaScript Example</title>
@@ -54,7 +54,7 @@
 
 <!-- The JS SDK Login Button -->
 
-<fb:login-button scope="public_profile,email,user_likes,instagram_basic,instagram_manage_comments,pages_manage_posts,business_management" onlogin="checkLoginState();">
+<fb:login-button scope="instagram_basic,instagram_manage_comments,instagram_manage_insights,pages_show_list,pages_read_engagement" onlogin="checkLoginState();">
 </fb:login-button>
 
 
